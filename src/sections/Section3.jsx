@@ -23,38 +23,95 @@ const Section3 = () => {
         </p>
       </div>
       <div className="section-3-div-2">
+        <div
+          className="section-3-img-container relative"
+          // style={{ width: "100%" }}
+        >
+          <Link
+            to="https://mazi-quiz.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/quiz-rel.png" alt="" />
+            <p className="absolute">MY QUIZ APP</p>
+          </Link>
+        </div>
         <div className="section-3-img-container relative">
-          <Link to="https://mazi-cocktails.netlify.app">
+          <Link
+            to="https://mazi-todo-real.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/todo.png" alt="" />
+            <p className="absolute">MY TODO APP</p>
+          </Link>
+        </div>
+        <div className="section-3-img-container relative">
+          <Link
+            to="https://hacker-news-mazi.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/news.jpg" alt="" />
+            <p className="absolute">MY HACKER NEWS APP</p>
+          </Link>
+        </div>
+        <div className="section-3-img-container relative">
+          <Link
+            to="https://mazi-cocktails.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/cocktails.jpg" alt="" />
             <p className="absolute">COCKTAILS API APP</p>
           </Link>
         </div>
         <div className="section-3-img-container">
-          <Link to="https://simple-calcus.netlify.app">
+          <Link
+            to="https://simple-calcus.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/calcus.png" alt="" />
             <p>CALCULATOR APP</p>
           </Link>
         </div>
         <div className="section-3-img-container">
-          <Link to="https://cart-my-app.netlify.app">
+          <Link
+            to="https://cart-my-app.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/cart.jpg" alt="" />
             <p>CART APP</p>
           </Link>
         </div>
         <div className="section-3-img-container">
-          <Link to="https://mazirama.netlify.app">
+          <Link
+            to="https://mazirama.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/bookorama.avif" alt="" />
             <p>BOOKORAMA</p>
           </Link>
         </div>
         <div className="section-3-img-container">
-          <Link to="https://review-niger.netlify.app">
+          <Link
+            to="https://review-niger.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/review.jpg" alt="" />
             <p>REVIEW</p>
           </Link>
         </div>
         <div className="section-3-img-container">
-          <Link to="https://mazi-menu.netlify.app">
+          <Link
+            to="https://mazi-menu.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/web6.png" alt="" />
             <p>MENU</p>
           </Link>
