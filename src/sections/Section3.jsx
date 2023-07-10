@@ -28,12 +28,26 @@ const Section3 = () => {
           // style={{ width: "100%" }}
         >
           <Link
+            to="https://mazi-commerce-real.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/ecommerce.png" alt="" />
+            <p className="absolute">ECOMMERCE</p>
+          </Link>
+        </div>
+        <div
+          className="section-3-img-container relative"
+          // style={{ width: "100%" }}
+        >
+          <Link
             to="https://mazi-quiz.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/quiz-rel.png" alt="" />
             <p className="absolute">MY QUIZ APP</p>
+            {/* https://mazi-commerce-real.netlify.app */}
           </Link>
         </div>
         <div className="section-3-img-container relative">
