@@ -28,7 +28,7 @@ const Section3 = () => {
           // style={{ width: "100%" }}
         >
           <Link
-            to="https://mazify-job-find.netlify.app/landing"
+            to="https://mazify-job-find.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
