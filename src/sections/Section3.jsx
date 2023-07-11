@@ -28,6 +28,20 @@ const Section3 = () => {
           // style={{ width: "100%" }}
         >
           <Link
+            to="https://mazify-job-find.netlify.app/landing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/shutterstock.jpg" alt="" />
+            <p className="absolute">JOB FIND APP</p>
+          </Link>
+        </div>
+
+        <div
+          className="section-3-img-container relative"
+          // style={{ width: "100%" }}
+        >
+          <Link
             to="https://mazi-commerce-real.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
@@ -36,6 +50,7 @@ const Section3 = () => {
             <p className="absolute">ECOMMERCE</p>
           </Link>
         </div>
+
         <div
           className="section-3-img-container relative"
           // style={{ width: "100%" }}
