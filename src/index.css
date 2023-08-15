@@ -120,7 +120,7 @@ img {
   padding-bottom: 3px;
   cursor: pointer;
 }
-.section-1-body .social > .icon:hover {
+.section-1-body .social .icon:hover {
   /* background: linear-gradient(to right, cyan, teal); */
   color: cyan;
 }
