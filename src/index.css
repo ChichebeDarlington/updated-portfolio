@@ -118,11 +118,11 @@ img {
   color: gray;
   padding-top: 3px;
   padding-bottom: 3px;
-  cursor: pointer;
 }
 .section-1-body .social .icon:hover {
   /* background: linear-gradient(to right, cyan, teal); */
   color: cyan;
+  cursor: pointer;
 }
 .section-1-body > .img-container {
   margin-inline: auto;
